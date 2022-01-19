@@ -21,6 +21,7 @@ app.set('view engine', 'html');
 
 // routes
 app.get('*', function(req, res){
+    
 
     let time = !!req.query.t ? req.query.t : 5
     time = time * 1000
